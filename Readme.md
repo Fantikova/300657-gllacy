@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Дина Фантикова](https://up.htmlacademy.ru/htmlcss/16/user/300657).
-* Наставник: `Неизвестно`.
+* Наставник: [Владислав Балабанович] (https://htmlacademy.ru/profile/vladbesson).
 
 ---
 
