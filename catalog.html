@@ -41,36 +41,62 @@
 							<p>Сортировка:</p>
 							<select name="sort-by">
 								<option value="popularity" selected>по популярности</option>
+								<option value="price">по цене</option>
+								<option value="fat">по жирности</option>
 							</select>
 						</div>
 						<!--Двойной ползунок?-->
-						<div class="sort-price">
-							<p>Цена: 100 руб.-500 руб.</p>
-							<input type="range">
+						<div class="sort-by">
+							<div class="sort-price">
+								<p>Цена: 100 руб.-500 руб.</p>
+								<input type="range">
+							</div>
 						</div>
-						<div class="sort-fat">
-							<p>Жирность:</p>
-							<input type="radio" name="fat" id="fat0">
-							<label for="fat0">0%</label>
-							<input type="radio" name="fat" id="fat10" checked>
-							<label for="fat10">до 10%</label>
-							<input type="radio" name="fat" id="fat30">
-							<label for="fat30">до 30%</label>
-							<input type="radio" name="fat" id="fat100">
-							<label for="fat100">выше 30%</label>
+						<div class="sort-by">
+							<div class="sort-fat">
+								<p>Жирность:</p>
+								<div class="sort-by-property">
+									<input type="radio" name="fat" id="fat0">
+									<label for="fat0">0%</label>
+								</div>
+								<div class="sort-by-property">
+									<input type="radio" name="fat" id="fat10" checked>
+									<label for="fat10">до 10%</label>
+								</div>
+								<div class="sort-by-property">
+									<input type="radio" name="fat" id="fat30">
+									<label for="fat30">до 30%</label>
+								</div>
+								<div class="sort-by-property">
+									<input type="radio" name="fat" id="fat100">
+									<label for="fat100">выше 30%</label>
+								</div>
+							</div>
 						</div>
-						<div class="sort-add">
-							<p>Наполнители:</p>
-							<input type="checkbox" name="shoko" id="shoko" checked>
-							<label for="shoko">шоколадные</label>
-							<input type="checkbox" name="sugar" id="sugar" checked>
-							<label for="sugar" checked>сахарные присыпки</label>
-							<input type="checkbox" name="fruit" id="fruit">
-							<label for="fruit">фрукты</label>
-							<input type="checkbox" name="syrup" id="syrup">
-							<label for="syrup">сироп</label>
-							<input type="checkbox" name="jam" id="jam">
-							<label for="jam">джемы</label>
+						<div class="sort-by">
+							<div class="sort-add">
+								<p>Наполнители:</p>
+								<div class="sort-by-property">
+									<input type="checkbox" name="shoko" id="shoko" checked>
+									<label for="shoko">шоколадные</label>
+								</div>
+								<div class="sort-by-property">
+									<input type="checkbox" name="sugar" id="sugar" checked>
+									<label for="sugar" checked>сахарные присыпки</label>
+								</div>
+								<div class="sort-by-property">
+									<input type="checkbox" name="fruit" id="fruit">
+									<label for="fruit">фрукты</label>
+								</div>
+								<div class="sort-by-property">
+									<input type="checkbox" name="syrup" id="syrup">
+									<label for="syrup">сироп</label>
+								</div>
+								<div class="sort-by-property">
+									<input type="checkbox" name="jam" id="jam">
+									<label for="jam">джемы</label>
+								</div>
+							</div>
 						</div>
 						<button type="submit" class="filters-btn">Применить</button>
 					</form>
